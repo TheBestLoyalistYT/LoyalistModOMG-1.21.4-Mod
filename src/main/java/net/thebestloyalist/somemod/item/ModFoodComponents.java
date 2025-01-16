@@ -7,3 +7,4 @@ import net.minecraft.entity.effect.StatusEffects;
 public class ModFoodComponents {
     public static final FoodComponent FRIES = new FoodComponent.Builder().nutrition(6).saturationModifier(0.25f).build();
 }
+this is a new thing

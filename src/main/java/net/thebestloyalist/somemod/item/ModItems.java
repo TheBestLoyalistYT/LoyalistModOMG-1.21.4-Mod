@@ -13,7 +13,7 @@ import net.thebestloyalist.somemod.LoyalistMod;
 public class ModItems {
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(LoyalistMod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(LoyalistMod.MOD_ID, name), item); here is where it messed up :| after Identifier;
     }
     public static void registerModItems() {
         LoyalistMod.LOGGER.info("Registering Mod Items for " + LoyalistMod.MOD_ID);
