@@ -15,7 +15,6 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item FRIES = registerItem("fries", new Item(new Item.Settings() .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(LoyalistMod.MOD_ID,"fries"))))); //the origonal item code
 
-    public static final Item FRIES = registerItem("fries", new Item(new Item.Settings().food(ModFoodComponents.FRIES))); //the tutorial version which gives the error
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(LoyalistMod.MOD_ID, name), item);
