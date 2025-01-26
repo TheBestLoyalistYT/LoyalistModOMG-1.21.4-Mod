@@ -1,7 +1,7 @@
-[
+{
   "variants": {
-  "": {
-    "model": "loyalist_mod:block/frie_block"
+    "": {
+      "model": "loyalist_mod:block/frie_block"
+    }
   }
 }
-]

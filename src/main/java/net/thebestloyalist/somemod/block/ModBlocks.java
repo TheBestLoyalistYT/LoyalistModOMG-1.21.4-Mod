@@ -18,8 +18,15 @@ import net.thebestloyalist.somemod.LoyalistMod;
 public class ModBlocks {
 
     public static final Block FRIE_BLOCK = registerBlock("frie_block",
-             new Block(AbstractBlock.Settings.create().strength(1f)
-                     .sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LoyalistMod.MOD_ID, "frie_block")))
+                    .strength(1f)
+                    .jumpVelocityMultiplier(69f)
+                    .sounds(BlockSoundGroup.WOOL)));
+
+    public static final Block FRIE_ORE = registerBlock("frie_ore_block",
+            new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LoyalistMod.MOD_ID, "frie_ore_block")))
+                    .strength(2f)
+                    .sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -28,7 +35,7 @@ public class ModBlocks {
 
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(LoyalistMod.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
+                new BlockItem(block, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(LoyalistMod.MOD_ID, name))).useBlockPrefixedTranslationKey()));
     }
 
     public static void registerModBlocks() {
@@ -37,5 +44,5 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.FRIE_BLOCK);
         });
-    ;}
+        ;}
 }

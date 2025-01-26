@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "fries"
+        }
+    },
+    "result": {
+        "id": "frie_block",
+        "count": 1
+    }
+}

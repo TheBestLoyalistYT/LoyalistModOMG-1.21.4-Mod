@@ -1,6 +1,5 @@
 {
   "item.loyalist_mod.fries": "Fries",
-
-
-  "block.loyalist_mod.frie_block": "Frie Block"
+  "block.loyalist_mod.frie_block": "Frie Block",
+  "block.loyalist_mod.frie_ore_block": "Frie Ore"
 }
