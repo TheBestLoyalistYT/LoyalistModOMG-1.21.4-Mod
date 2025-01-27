@@ -1,18 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
-    "category": "misc",
-    "key": {
-        "#": {
-            "item": "loyalist_mod:fries"
-        }
-    },
+    "category": "building",
     "pattern": [
         "###",
         "###",
         "###"
     ],
-    "result": {
-        "count": 1,
-        "id": "loyalist_mod:frie_block"
+    "key": {
+        "#": {
+            "item": "loyalist_mod:fries"
+        },
+        "result": {
+            "item": "loyalist_mod:frie_block"
+        }
+
     }
 }
