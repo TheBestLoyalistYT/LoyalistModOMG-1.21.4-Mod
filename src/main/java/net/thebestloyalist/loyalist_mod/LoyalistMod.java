@@ -1,9 +1,9 @@
-package net.thebestloyalist.somemod;
+package net.thebestloyalist.loyalist_mod;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.thebestloyalist.somemod.block.ModBlocks;
-import net.thebestloyalist.somemod.item.ModItems;
+import net.thebestloyalist.loyalist_mod.block.ModBlocks;
+import net.thebestloyalist.loyalist_mod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

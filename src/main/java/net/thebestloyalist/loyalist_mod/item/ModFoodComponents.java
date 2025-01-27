@@ -1,4 +1,4 @@
-package net.thebestloyalist.somemod.item;
+package net.thebestloyalist.loyalist_mod.item;
 
 import net.minecraft.component.type.FoodComponent;
 

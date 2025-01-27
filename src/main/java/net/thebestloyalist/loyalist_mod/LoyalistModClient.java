@@ -1,4 +1,4 @@
-package net.thebestloyalist.somemod;
+package net.thebestloyalist.loyalist_mod;
 
 import net.fabricmc.api.ClientModInitializer;
 

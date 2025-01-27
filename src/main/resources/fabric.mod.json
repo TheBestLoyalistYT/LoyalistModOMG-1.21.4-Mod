@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.thebestloyalist.somemod.LoyalistMod"
+			"net.thebestloyalist.loyalist_mod.LoyalistMod"
 		],
 		"client": [
-			"net.thebestloyalist.somemod.LoyalistModClient"
+			"net.thebestloyalist.loyalist_mod.LoyalistModClient"
 		],
 		"fabric-datagen": [
-			"net.thebestloyalist.somemod.LoyalistModDataGenerator"
+			"net.thebestloyalist.loyalist_mod.LoyalistModDataGenerator"
 		]
 	},
 	"mixins": [

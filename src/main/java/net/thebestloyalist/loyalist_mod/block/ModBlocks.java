@@ -1,6 +1,5 @@
-package net.thebestloyalist.somemod.block;
+package net.thebestloyalist.loyalist_mod.block;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -13,7 +12,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.thebestloyalist.somemod.LoyalistMod;
+import net.thebestloyalist.loyalist_mod.LoyalistMod;
 
 public class ModBlocks {
 

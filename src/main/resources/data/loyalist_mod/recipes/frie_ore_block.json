@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": "60",
+    "experience": 0.5,
+    "group": "fries",
+    "ingredient": {
+        "item": "loyalist_mod:frie_ore_block"
+    },
+    "result": {
+        "id": "loyalist_mod:fries"
+    }
+}
