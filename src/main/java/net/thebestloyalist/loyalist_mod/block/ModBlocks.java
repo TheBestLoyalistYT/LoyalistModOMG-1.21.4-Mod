@@ -25,6 +25,13 @@ public class ModBlocks {
     public static final Block FRIE_ORE = registerBlock("frie_ore_block",
             new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LoyalistMod.MOD_ID, "frie_ore_block")))
                     .strength(2f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEP_FRIE_ORE = registerBlock("deepslate_frie_ore_block",
+            new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LoyalistMod.MOD_ID, "deepslate_frie_ore_block")))
+                    .strength(4f)
+                    .requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {

@@ -1,18 +1,37 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "building",
-    "pattern": [
-        "###",
-        "###",
-        "###"
+    "ingredients": [
+        [
+            "loyalist_mod:fries"
+        ],
+        [
+            "loyalist_mod:fries"
+        ],
+        [
+            "loyalist_mod:fries"
+        ],
+        [
+            "loyalist_mod:fries"
+        ],
+        [
+            "loyalist_mod:fries"
+        ],
+        [
+            "loyalist_mod:fries"
+        ],
+        [
+            "loyalist_mod:fries"
+        ],
+        [
+            "loyalist_mod:fries"
+        ],
+        [
+            "loyalist_mod:fries"
+        ]
     ],
-    "key": {
-        "#": {
-            "item": "loyalist_mod:fries"
-        },
-        "result": {
-            "item": "loyalist_mod:frie_block"
-        }
-
+    "result": {
+        "id": "loyalist_mod:frie_block",
+        "count": 1
     }
 }
