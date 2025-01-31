@@ -24,7 +24,7 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, FRIE_ORE_BLOCK_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.FRIE_ORE_BLOCK_KEY),
-                ModOrePlacement.modifiersWithCount(13,
+                ModOrePlacement.modifiersWithCount(50,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(6), YOffset.fixed(90))));
     }
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "loyalist_mod:block/deepslate_frie_ore_block"
+  }
+}

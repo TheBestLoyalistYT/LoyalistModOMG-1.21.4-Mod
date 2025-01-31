@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": "loyalist_mod:deepslate_frie_ore_block",
+  "result": {
+    "id": "loyalist_mod:fries"
+  },
+  "experience": 1,
+  "cookingtime": 80
+}
