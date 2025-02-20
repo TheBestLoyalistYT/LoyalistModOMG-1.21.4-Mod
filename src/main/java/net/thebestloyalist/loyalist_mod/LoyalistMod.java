@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.thebestloyalist.loyalist_mod.block.ModBlocks;
 import net.thebestloyalist.loyalist_mod.item.ModItems;
+import net.thebestloyalist.loyalist_mod.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,5 +16,6 @@ public class LoyalistMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
