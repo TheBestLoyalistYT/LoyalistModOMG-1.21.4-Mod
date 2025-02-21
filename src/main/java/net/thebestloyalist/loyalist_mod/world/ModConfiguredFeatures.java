@@ -17,7 +17,6 @@ import net.thebestloyalist.loyalist_mod.block.ModBlocks;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-
     public static final RegistryKey<ConfiguredFeature<?, ?>> FRIE_ORE_BLOCK_KEY = registerKey("frie_ore_block");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
